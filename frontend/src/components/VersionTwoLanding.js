@@ -22,7 +22,8 @@ import {
   Shield,
   Star,
   Play,
-  ExternalLink
+  ExternalLink,
+  User
 } from 'lucide-react';
 
 const VersionTwoLanding = () => {
