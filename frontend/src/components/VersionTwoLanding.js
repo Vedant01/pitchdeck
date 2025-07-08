@@ -456,6 +456,401 @@ const VersionTwoLanding = () => {
         </div>
       </Section>
 
+      {/* VORA Section */}
+      <Section id="vora" className="gradient-bg-dark" bgImage="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div variants={fadeInUp} className="text-center mb-16">
+            <h2 className="text-5xl font-bold text-white mb-8">
+              VORA - Your Personal Jarvis
+            </h2>
+            <p className="text-2xl text-white/90 mb-12">AI Agent That Actually Understands Your World</p>
+          </motion.div>
+
+          <motion.div variants={staggerContainer} className="grid md:grid-cols-2 gap-12 items-center mb-16">
+            <div>
+              <h3 className="text-3xl font-bold text-white mb-8">Beyond Every Other AI Assistant</h3>
+              <div className="space-y-6">
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0 w-12 h-12 bg-cyan-100 rounded-full flex items-center justify-center">
+                    <Brain className="w-6 h-6 text-cyan-600" />
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold text-white mb-2">Personal Memory</h4>
+                    <p className="text-white/80">Remembers your preferences, schedule, relationships</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0 w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
+                    <Cpu className="w-6 h-6 text-purple-600" />
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold text-white mb-2">Code Generation</h4>
+                    <p className="text-white/80">Creates actual scripts and automations, not just answers</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0 w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
+                    <Eye className="w-6 h-6 text-green-600" />
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold text-white mb-2">Hardware Integration</h4>
+                    <p className="text-white/80">Uses Vision's sensors for real-world context</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0 w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center">
+                    <Zap className="w-6 h-6 text-yellow-600" />
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold text-white mb-2">Proactive Intelligence</h4>
+                    <p className="text-white/80">Anticipates your needs before you ask</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8">
+              <h3 className="text-2xl font-bold text-white mb-6">Real Power in Action</h3>
+              <div className="space-y-4">
+                <div className="bg-white/5 rounded-lg p-4">
+                  <p className="text-white/90 mb-2">"Schedule dinner with Mom when she's free next week"</p>
+                  <p className="text-cyan-400 text-sm">→ Calendar magic happens</p>
+                </div>
+                <div className="bg-white/5 rounded-lg p-4">
+                  <p className="text-white/90 mb-2">"Create a Python script to analyze my spending patterns"</p>
+                  <p className="text-cyan-400 text-sm">→ Executable code delivered</p>
+                </div>
+                <div className="bg-white/5 rounded-lg p-4">
+                  <p className="text-white/90 mb-2">"Order my usual coffee when I'm near the café"</p>
+                  <p className="text-cyan-400 text-sm">→ Location-based automation</p>
+                </div>
+                <div className="bg-white/5 rounded-lg p-4">
+                  <p className="text-white/90 mb-2">"Explain blockchain like I'm 12"</p>
+                  <p className="text-cyan-400 text-sm">→ Personalized learning assistance</p>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+
+          <motion.div variants={fadeInUp} className="text-center">
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="metric-item">
+                <div className="metric-number">$29</div>
+                <div className="metric-label">Monthly Subscription</div>
+              </div>
+              <div className="metric-item">
+                <div className="metric-number">78%</div>
+                <div className="metric-label">Gross Margin</div>
+              </div>
+              <div className="metric-item">
+                <div className="metric-number">4.8/5</div>
+                <div className="metric-label">User Satisfaction</div>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </Section>
+
+      {/* VORA Tech Section */}
+      <Section id="vora-tech" className="bg-gradient-to-br from-purple-50 to-indigo-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div variants={fadeInUp} className="text-center mb-16">
+            <h2 className="text-5xl font-bold text-gray-900 mb-8">
+              VORA - Technical Superiority
+            </h2>
+            <p className="text-2xl text-gray-600 mb-12">Advanced AI Architecture That Delivers</p>
+          </motion.div>
+
+          <motion.div variants={staggerContainer} className="grid md:grid-cols-2 gap-12 items-center mb-16">
+            <div>
+              <h3 className="text-3xl font-bold text-gray-900 mb-8">Core Capabilities</h3>
+              <div className="space-y-6">
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0 w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
+                    <Brain className="w-6 h-6 text-purple-600" />
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold text-gray-900 mb-2">Multimodal Processing</h4>
+                    <p className="text-gray-600">Text, voice, images, sensor data from Vision hardware</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0 w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center">
+                    <Shield className="w-6 h-6 text-indigo-600" />
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold text-gray-900 mb-2">Retrieval-Augmented Generation</h4>
+                    <p className="text-gray-600">Your personal knowledge base integration</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0 w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
+                    <Users className="w-6 h-6 text-green-600" />
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold text-gray-900 mb-2">Agent Orchestration</h4>
+                    <p className="text-gray-600">Spawns specialized sub-agents for complex tasks</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0 w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center">
+                    <Cpu className="w-6 h-6 text-yellow-600" />
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold text-gray-900 mb-2">Natural Language to Code</h4>
+                    <p className="text-gray-600">Generates Python, JavaScript, automation scripts</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="card">
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">Competitive Domination</h3>
+              <div className="overflow-x-auto">
+                <table className="w-full">
+                  <thead>
+                    <tr className="border-b">
+                      <th className="text-left py-2">Feature</th>
+                      <th className="text-center py-2">ChatGPT</th>
+                      <th className="text-center py-2">Alexa</th>
+                      <th className="text-center py-2">Siri</th>
+                      <th className="text-center py-2">VORA</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr className="border-b">
+                      <td className="py-2">Personal Memory</td>
+                      <td className="text-center py-2">✗</td>
+                      <td className="text-center py-2">Limited</td>
+                      <td className="text-center py-2">✗</td>
+                      <td className="text-center py-2 text-green-600">✓</td>
+                    </tr>
+                    <tr className="border-b">
+                      <td className="py-2">Code Generation</td>
+                      <td className="text-center py-2">Basic</td>
+                      <td className="text-center py-2">✗</td>
+                      <td className="text-center py-2">✗</td>
+                      <td className="text-center py-2 text-green-600">✓</td>
+                    </tr>
+                    <tr className="border-b">
+                      <td className="py-2">Real-World Context</td>
+                      <td className="text-center py-2">✗</td>
+                      <td className="text-center py-2">✗</td>
+                      <td className="text-center py-2">✗</td>
+                      <td className="text-center py-2 text-green-600">✓</td>
+                    </tr>
+                    <tr>
+                      <td className="py-2">Proactive Actions</td>
+                      <td className="text-center py-2">✗</td>
+                      <td className="text-center py-2">Limited</td>
+                      <td className="text-center py-2">✗</td>
+                      <td className="text-center py-2 text-green-600">✓</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </motion.div>
+
+          <motion.div variants={fadeInUp} className="text-center">
+            <div className="bg-white p-8 rounded-2xl shadow-xl max-w-2xl mx-auto">
+              <h3 className="text-3xl font-bold text-gray-900 mb-4">Proven Results</h3>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <div className="text-3xl font-bold text-purple-600 mb-2">4.8/5</div>
+                  <p className="text-gray-600">User satisfaction</p>
+                </div>
+                <div>
+                  <div className="text-3xl font-bold text-purple-600 mb-2">89%</div>
+                  <p className="text-gray-600">Task completion rate</p>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </Section>
+
+      {/* VISION Section */}
+      <Section id="vision" className="gradient-bg-dark" bgImage="https://images.pexels.com/photos/5081424/pexels-photo-5081424.jpeg">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div variants={fadeInUp} className="text-center mb-16">
+            <h2 className="text-5xl font-bold text-white mb-8">
+              VISION - Smart Wearables Revolution
+            </h2>
+            <p className="text-2xl text-white/90 mb-12">Bridge Physical & Digital Worlds Seamlessly</p>
+          </motion.div>
+
+          <motion.div variants={staggerContainer} className="grid md:grid-cols-2 gap-12 items-center mb-16">
+            <div>
+              <h3 className="text-3xl font-bold text-white mb-8">Premium Hardware That Works</h3>
+              <div className="space-y-6">
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0 w-12 h-12 bg-cyan-100 rounded-full flex items-center justify-center">
+                    <Eye className="w-6 h-6 text-cyan-600" />
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold text-white mb-2">Smart Glasses</h4>
+                    <p className="text-white/80">8MP camera, micro-OLED display, 8-hour battery (only 35g)</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0 w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
+                    <Smartphone className="w-6 h-6 text-purple-600" />
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold text-white mb-2">Smart Wristband</h4>
+                    <p className="text-white/80">NFC reader, biometric sensors, 5-day battery, IP68 waterproof</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0 w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
+                    <Zap className="w-6 h-6 text-green-600" />
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold text-white mb-2">NFC Tag Ecosystem</h4>
+                    <p className="text-white/80">Passive tags transform any object into smart interface</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8">
+              <h3 className="text-2xl font-bold text-white mb-6">Instant Superpowers</h3>
+              <div className="space-y-4">
+                <div className="bg-white/5 rounded-lg p-4">
+                  <h4 className="text-white font-semibold mb-2">Visual Recognition</h4>
+                  <p className="text-white/80 text-sm">Reads menus, price tags, documents, products instantly</p>
+                </div>
+                <div className="bg-white/5 rounded-lg p-4">
+                  <h4 className="text-white font-semibold mb-2">NFC Interaction</h4>
+                  <p className="text-white/80 text-sm">Tap anything for information, payments, access control</p>
+                </div>
+                <div className="bg-white/5 rounded-lg p-4">
+                  <h4 className="text-white font-semibold mb-2">Gesture Control</h4>
+                  <p className="text-white/80 text-sm">Hand tracking, eye navigation, voice activation</p>
+                </div>
+                <div className="bg-white/5 rounded-lg p-4">
+                  <h4 className="text-white font-semibold mb-2">Contextual Awareness</h4>
+                  <p className="text-white/80 text-sm">Always knows where you are and what you're doing</p>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+
+          <motion.div variants={fadeInUp} className="text-center">
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="metric-item">
+                <div className="metric-number">$449</div>
+                <div className="metric-label">Hardware Bundle</div>
+              </div>
+              <div className="metric-item">
+                <div className="metric-number">42%</div>
+                <div className="metric-label">Gross Margin</div>
+              </div>
+              <div className="metric-item">
+                <div className="metric-number">18%</div>
+                <div className="metric-label">Annual Repeat Rate</div>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </Section>
+
+      {/* VISION Magic Section */}
+      <Section id="vision-magic" className="bg-gradient-to-br from-cyan-50 to-blue-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div variants={fadeInUp} className="text-center mb-16">
+            <h2 className="text-5xl font-bold text-gray-900 mb-8">
+              VISION - Real-World Magic
+            </h2>
+            <p className="text-2xl text-gray-600 mb-12">Universal Application Across Every Industry</p>
+          </motion.div>
+
+          <motion.div variants={staggerContainer} className="grid md:grid-cols-2 gap-12 mb-16">
+            <motion.div variants={slideInLeft} className="space-y-8">
+              <div className="card">
+                <div className="flex items-start space-x-4 mb-4">
+                  <div className="flex-shrink-0 w-12 h-12 bg-red-100 rounded-full flex items-center justify-center">
+                    <Shield className="w-6 h-6 text-red-600" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-900">Healthcare Revolution</h3>
+                </div>
+                <div className="space-y-3">
+                  <p className="text-gray-600">→ Scan prescription bottles → Instant dosage reminders and drug interactions</p>
+                  <p className="text-gray-600">→ Tap hospital wristbands → Complete medical records and appointments</p>
+                  <p className="text-gray-600">→ Emergency situations → Auto-contact medical professionals with location</p>
+                </div>
+              </div>
+              
+              <div className="card">
+                <div className="flex items-start space-x-4 mb-4">
+                  <div className="flex-shrink-0 w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
+                    <BarChart3 className="w-6 h-6 text-purple-600" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-900">Retail & Commerce Transformation</h3>
+                </div>
+                <div className="space-y-3">
+                  <p className="text-gray-600">→ Look at any product → Instant price comparison and reviews</p>
+                  <p className="text-gray-600">→ Tap payment terminals → Seamless contactless transactions</p>
+                  <p className="text-gray-600">→ Scan barcodes → Real-time inventory and availability</p>
+                </div>
+              </div>
+            </motion.div>
+
+            <motion.div variants={slideInRight} className="space-y-8">
+              <div className="card">
+                <div className="flex items-start space-x-4 mb-4">
+                  <div className="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
+                    <Target className="w-6 h-6 text-blue-600" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-900">Transportation Simplified</h3>
+                </div>
+                <div className="space-y-3">
+                  <p className="text-gray-600">→ Look at bus stops → Live arrival information</p>
+                  <p className="text-gray-600">→ Tap transit cards → Optimized routes and fare tracking</p>
+                  <p className="text-gray-600">→ Navigation assistance → Turn-by-turn directions in your field of view</p>
+                </div>
+              </div>
+              
+              <div className="card">
+                <div className="flex items-start space-x-4 mb-4">
+                  <div className="flex-shrink-0 w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
+                    <Star className="w-6 h-6 text-green-600" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-900">Food & Restaurant Experience</h3>
+                </div>
+                <div className="space-y-3">
+                  <p className="text-gray-600">→ Scan any menu → Dietary information and allergen warnings</p>
+                  <p className="text-gray-600">→ Tap table tags → Direct ordering system and payment</p>
+                  <p className="text-gray-600">→ Voice commands → "Order me something spicy under $15" - done</p>
+                </div>
+              </div>
+            </motion.div>
+          </motion.div>
+
+          <motion.div variants={fadeInUp} className="text-center">
+            <div className="bg-white p-8 rounded-2xl shadow-xl max-w-4xl mx-auto">
+              <h3 className="text-3xl font-bold text-gray-900 mb-6">The Magic is Real</h3>
+              <div className="grid md:grid-cols-4 gap-6">
+                <div className="text-center">
+                  <div className="text-2xl font-bold text-cyan-600 mb-2">∞</div>
+                  <p className="text-gray-600 text-sm">Industries Transformed</p>
+                </div>
+                <div className="text-center">
+                  <div className="text-2xl font-bold text-cyan-600 mb-2">100%</div>
+                  <p className="text-gray-600 text-sm">Universal Compatibility</p>
+                </div>
+                <div className="text-center">
+                  <div className="text-2xl font-bold text-cyan-600 mb-2">0</div>
+                  <p className="text-gray-600 text-sm">Learning Curve</p>
+                </div>
+                <div className="text-center">
+                  <div className="text-2xl font-bold text-cyan-600 mb-2">24/7</div>
+                  <p className="text-gray-600 text-sm">Always Available</p>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </Section>
+
       {/* Contact Section */}
       <Section id="investment" className="gradient-bg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
