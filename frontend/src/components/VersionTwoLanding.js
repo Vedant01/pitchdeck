@@ -851,6 +851,759 @@ const VersionTwoLanding = () => {
         </div>
       </Section>
 
+      {/* Integration Section */}
+      <Section id="integration" className="gradient-bg-dark" bgImage="https://images.pexels.com/photos/18069696/pexels-photo-18069696.png">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div variants={fadeInUp} className="text-center mb-16">
+            <h2 className="text-5xl font-bold text-white mb-8">
+              VORA + VISION Integration
+            </h2>
+            <p className="text-2xl text-white/90 mb-12">The Magic of Perfect Integration</p>
+          </motion.div>
+
+          <motion.div variants={staggerContainer} className="grid md:grid-cols-2 gap-12 items-center mb-16">
+            <div>
+              <h3 className="text-3xl font-bold text-white mb-8">Exponential Power When Combined</h3>
+              <p className="text-xl text-white/90 mb-6">
+                Vision's hardware provides context → Vora's AI becomes exponentially more intelligent
+              </p>
+              
+              <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6">
+                <h4 className="text-xl font-bold text-white mb-4">Real-World Example</h4>
+                <div className="space-y-4">
+                  <div className="flex items-start space-x-3">
+                    <div className="w-6 h-6 bg-cyan-400 rounded-full flex items-center justify-center mt-1">
+                      <span className="text-white text-xs font-bold">1</span>
+                    </div>
+                    <p className="text-white/90">Vision sees restaurant menu through smart glasses</p>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="w-6 h-6 bg-cyan-400 rounded-full flex items-center justify-center mt-1">
+                      <span className="text-white text-xs font-bold">2</span>
+                    </div>
+                    <p className="text-white/90">Vision taps NFC tag on table for full digital menu access</p>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="w-6 h-6 bg-cyan-400 rounded-full flex items-center justify-center mt-1">
+                      <span className="text-white text-xs font-bold">3</span>
+                    </div>
+                    <p className="text-white/90">Vora processes your dietary preferences, budget, and past orders</p>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="w-6 h-6 bg-cyan-400 rounded-full flex items-center justify-center mt-1">
+                      <span className="text-white text-xs font-bold">4</span>
+                    </div>
+                    <p className="text-white/90">You speak naturally: "Something healthy under $20"</p>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="w-6 h-6 bg-cyan-400 rounded-full flex items-center justify-center mt-1">
+                      <span className="text-white text-xs font-bold">5</span>
+                    </div>
+                    <p className="text-white/90">Vora orders automatically through restaurant's system</p>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="w-6 h-6 bg-cyan-400 rounded-full flex items-center justify-center mt-1">
+                      <span className="text-white text-xs font-bold">6</span>
+                    </div>
+                    <p className="text-white/90">Payment processed instantly via Vision's NFC wristband</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div>
+              <h3 className="text-3xl font-bold text-white mb-8">Unbeatable Competitive Advantage</h3>
+              <div className="space-y-6">
+                <div className="bg-white/10 backdrop-blur-lg rounded-lg p-6">
+                  <h4 className="text-lg font-bold text-white mb-2">No other company combines AI intelligence with contextual hardware</h4>
+                </div>
+                <div className="bg-white/10 backdrop-blur-lg rounded-lg p-6">
+                  <h4 className="text-lg font-bold text-white mb-2">Network effects - more usage improves both products exponentially</h4>
+                </div>
+                <div className="bg-white/10 backdrop-blur-lg rounded-lg p-6">
+                  <h4 className="text-lg font-bold text-white mb-2">Data moat - personal context creates massive switching costs</h4>
+                </div>
+                <div className="bg-white/10 backdrop-blur-lg rounded-lg p-6">
+                  <h4 className="text-lg font-bold text-white mb-2">Unified experience - one interface replaces dozens of apps</h4>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+
+          <motion.div variants={fadeInUp} className="text-center">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 max-w-2xl mx-auto">
+              <h3 className="text-3xl font-bold text-white mb-6">Beta Validation</h3>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <div className="text-4xl font-bold text-cyan-400 mb-2">73%</div>
+                  <p className="text-white/80">First-try success rate</p>
+                </div>
+                <div>
+                  <div className="text-4xl font-bold text-cyan-400 mb-2">4.8/5</div>
+                  <p className="text-white/80">User satisfaction</p>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </Section>
+
+      {/* VERSE Section */}
+      <Section id="verse" className="bg-gradient-to-br from-emerald-50 to-teal-50" bgImage="https://images.pexels.com/photos/32832530/pexels-photo-32832530.jpeg">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="absolute inset-0 bg-white/80 z-0"></div>
+          <div className="relative z-10">
+            <motion.div variants={fadeInUp} className="text-center mb-16">
+              <h2 className="text-5xl font-bold text-gray-900 mb-8">
+                VERSE - Rebuilding Human Dignity
+              </h2>
+              <p className="text-2xl text-gray-600 mb-12">Virtual Economy Platform for Displaced Professionals</p>
+            </motion.div>
+
+            <motion.div variants={staggerContainer} className="grid md:grid-cols-2 gap-12 items-center mb-16">
+              <div>
+                <div className="bg-red-50 border border-red-200 rounded-2xl p-8 mb-8">
+                  <h3 className="text-3xl font-bold text-red-900 mb-4">The Crisis</h3>
+                  <p className="text-xl text-red-800">
+                    151,484 skilled tech workers laid off in 2024 - talent wasted, dreams shattered
+                  </p>
+                </div>
+                
+                <div className="bg-emerald-50 border border-emerald-200 rounded-2xl p-8">
+                  <h3 className="text-3xl font-bold text-emerald-900 mb-6">The Solution - VERSE Basecamp</h3>
+                  <div className="space-y-4">
+                    <div className="flex items-start space-x-3">
+                      <div className="w-6 h-6 bg-emerald-500 rounded-full flex items-center justify-center mt-1">
+                        <CheckCircle className="w-4 h-4 text-white" />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-emerald-900">Personal 3D Workspace</h4>
+                        <p className="text-emerald-800 text-sm">Interactive resume that tells your story</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-6 h-6 bg-emerald-500 rounded-full flex items-center justify-center mt-1">
+                        <CheckCircle className="w-4 h-4 text-white" />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-emerald-900">Room Templates</h4>
+                        <p className="text-emerald-800 text-sm">Modern Loft, Zen Office, Hacker Bunker, Art Gallery</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-6 h-6 bg-emerald-500 rounded-full flex items-center justify-center mt-1">
+                        <CheckCircle className="w-4 h-4 text-white" />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-emerald-900">Work Artifacts</h4>
+                        <p className="text-emerald-800 text-sm">Projects, skills, videos as interactive experiences</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-6 h-6 bg-emerald-500 rounded-full flex items-center justify-center mt-1">
+                        <CheckCircle className="w-4 h-4 text-white" />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-emerald-900">Booking Integration</h4>
+                        <p className="text-emerald-800 text-sm">Direct calendar scheduling and professional rates</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-6 h-6 bg-emerald-500 rounded-full flex items-center justify-center mt-1">
+                        <CheckCircle className="w-4 h-4 text-white" />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-emerald-900">Custom Domains</h4>
+                        <p className="text-emerald-800 text-sm">Professional URLs (verse.to/yourname)</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div>
+                <h3 className="text-3xl font-bold text-gray-900 mb-8">Dignity-First Design</h3>
+                <div className="space-y-6">
+                  <div className="card">
+                    <h4 className="text-xl font-bold text-gray-900 mb-3">Respects Experience</h4>
+                    <p className="text-gray-600">Your 15 years of expertise deserves better than a PDF resume</p>
+                  </div>
+                  <div className="card">
+                    <h4 className="text-xl font-bold text-gray-900 mb-3">Emotional Connection</h4>
+                    <p className="text-gray-600">3D spaces create memorable, human impressions</p>
+                  </div>
+                  <div className="card">
+                    <h4 className="text-xl font-bold text-gray-900 mb-3">Premium Positioning</h4>
+                    <p className="text-gray-600">$85 average hourly rate (vs $65 on traditional platforms)</p>
+                  </div>
+                  <div className="card">
+                    <h4 className="text-xl font-bold text-gray-900 mb-3">Community Support</h4>
+                    <p className="text-gray-600">Network of professionals rebuilding together</p>
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </Section>
+
+      {/* VERSE Metrics Section */}
+      <Section id="verse-metrics" className="gradient-bg-dark">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div variants={fadeInUp} className="text-center mb-16">
+            <h2 className="text-5xl font-bold text-white mb-8">
+              VERSE - Proven Success Metrics
+            </h2>
+            <p className="text-2xl text-white/90 mb-12">Market Validation That Speaks Volumes</p>
+          </motion.div>
+
+          <motion.div variants={staggerContainer} className="grid md:grid-cols-2 gap-12 items-center mb-16">
+            <div>
+              <h3 className="text-3xl font-bold text-white mb-8">Beta Program Results</h3>
+              <div className="space-y-6">
+                <div className="bg-white/10 backdrop-blur-lg rounded-lg p-6">
+                  <div className="flex justify-between items-center">
+                    <span className="text-white text-lg">Average hourly rate</span>
+                    <span className="text-emerald-400 font-bold text-2xl">$85</span>
+                  </div>
+                  <p className="text-white/70 text-sm mt-2">31% higher than Upwork/Fiverr</p>
+                </div>
+                <div className="bg-white/10 backdrop-blur-lg rounded-lg p-6">
+                  <div className="flex justify-between items-center">
+                    <span className="text-white text-lg">Client retention rate</span>
+                    <span className="text-emerald-400 font-bold text-2xl">68%</span>
+                  </div>
+                  <p className="text-white/70 text-sm mt-2">Industry average: 45%</p>
+                </div>
+                <div className="bg-white/10 backdrop-blur-lg rounded-lg p-6">
+                  <div className="flex justify-between items-center">
+                    <span className="text-white text-lg">Booking rate within 30 days</span>
+                    <span className="text-emerald-400 font-bold text-2xl">73%</span>
+                  </div>
+                  <p className="text-white/70 text-sm mt-2">Of profile creation</p>
+                </div>
+                <div className="bg-white/10 backdrop-blur-lg rounded-lg p-6">
+                  <div className="flex justify-between items-center">
+                    <span className="text-white text-lg">Client satisfaction rating</span>
+                    <span className="text-emerald-400 font-bold text-2xl">4.8/5</span>
+                  </div>
+                  <p className="text-white/70 text-sm mt-2">Across all interactions</p>
+                </div>
+              </div>
+            </div>
+            
+            <div>
+              <h3 className="text-3xl font-bold text-white mb-8">Revenue Model</h3>
+              <div className="space-y-6">
+                <div className="bg-white/10 backdrop-blur-lg rounded-lg p-6">
+                  <h4 className="text-xl font-bold text-white mb-4">Subscription Tiers</h4>
+                  <div className="space-y-4">
+                    <div className="flex justify-between items-center">
+                      <div>
+                        <span className="text-white font-semibold">Free Tier</span>
+                        <p className="text-white/70 text-sm">1 template, 3 project slots</p>
+                      </div>
+                      <span className="text-emerald-400 font-bold">$0</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <div>
+                        <span className="text-white font-semibold">Pro</span>
+                        <p className="text-white/70 text-sm">5 templates, unlimited projects</p>
+                      </div>
+                      <span className="text-emerald-400 font-bold">$29/mo</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <div>
+                        <span className="text-white font-semibold">Elite</span>
+                        <p className="text-white/70 text-sm">AI assistant, analytics, placement</p>
+                      </div>
+                      <span className="text-emerald-400 font-bold">$99/mo</span>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="bg-white/10 backdrop-blur-lg rounded-lg p-6">
+                  <h4 className="text-xl font-bold text-white mb-4">Transaction Fees</h4>
+                  <div className="flex justify-between items-center">
+                    <span className="text-white">Platform fee</span>
+                    <span className="text-emerald-400 font-bold">Only 5%</span>
+                  </div>
+                  <p className="text-white/70 text-sm mt-2">vs 20% on Upwork</p>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+
+          <motion.div variants={fadeInUp} className="text-center">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 max-w-4xl mx-auto">
+              <h3 className="text-3xl font-bold text-white mb-6">Market Opportunity</h3>
+              <div className="grid md:grid-cols-3 gap-6">
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-emerald-400 mb-2">$1.58T</div>
+                  <p className="text-white/80">Metaverse economy by 2030</p>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-emerald-400 mb-2">2.3M</div>
+                  <p className="text-white/80">Displaced professionals globally</p>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-emerald-400 mb-2">$127K</div>
+                  <p className="text-white/80">In pre-orders, 45 enterprise partnerships</p>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </Section>
+
+      {/* VERSE Tech Section */}
+      <Section id="verse-tech" className="bg-gradient-to-br from-indigo-50 to-purple-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div variants={fadeInUp} className="text-center mb-16">
+            <h2 className="text-5xl font-bold text-gray-900 mb-8">
+              VERSE - Technology Excellence
+            </h2>
+            <p className="text-2xl text-gray-600 mb-12">Advanced Virtual Economy Infrastructure</p>
+          </motion.div>
+
+          <motion.div variants={staggerContainer} className="grid md:grid-cols-2 gap-12 items-center mb-16">
+            <div>
+              <h3 className="text-3xl font-bold text-gray-900 mb-8">Technical Architecture</h3>
+              <div className="space-y-6">
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0 w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
+                    <Cpu className="w-6 h-6 text-purple-600" />
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold text-gray-900 mb-2">3D Rendering</h4>
+                    <p className="text-gray-600">WebGL-based virtual environments, cross-platform</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0 w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center">
+                    <Users className="w-6 h-6 text-indigo-600" />
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold text-gray-900 mb-2">Real-Time Communication</h4>
+                    <p className="text-gray-600">WebRTC for seamless video meetings</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
+                    <Brain className="w-6 h-6 text-blue-600" />
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold text-gray-900 mb-2">AI Matching Engine</h4>
+                    <p className="text-gray-600">Machine learning for perfect talent-opportunity pairing</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0 w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
+                    <Shield className="w-6 h-6 text-green-600" />
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold text-gray-900 mb-2">Blockchain Integration</h4>
+                    <p className="text-gray-600">Smart contracts for payments and reputation</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="flex-shrink-0 w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center">
+                    <Globe className="w-6 h-6 text-yellow-600" />
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-bold text-gray-900 mb-2">Universal Access</h4>
+                    <p className="text-gray-600">Web, mobile, VR headset compatibility</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div className="card">
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">Competitive Domination</h3>
+              <div className="overflow-x-auto">
+                <table className="w-full">
+                  <thead>
+                    <tr className="border-b">
+                      <th className="text-left py-2">Platform</th>
+                      <th className="text-left py-2">Core Limitation</th>
+                      <th className="text-left py-2">VERSE Advantage</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr className="border-b">
+                      <td className="py-2 font-semibold">LinkedIn</td>
+                      <td className="py-2 text-gray-600">Poor freelance tools</td>
+                      <td className="py-2 text-purple-600 font-semibold">Immersive 3D workspaces</td>
+                    </tr>
+                    <tr className="border-b">
+                      <td className="py-2 font-semibold">Upwork</td>
+                      <td className="py-2 text-gray-600">Race-to-bottom pricing</td>
+                      <td className="py-2 text-purple-600 font-semibold">Premium positioning</td>
+                    </tr>
+                    <tr className="border-b">
+                      <td className="py-2 font-semibold">Fiverr</td>
+                      <td className="py-2 text-gray-600">Commoditized services</td>
+                      <td className="py-2 text-purple-600 font-semibold">Relationship building</td>
+                    </tr>
+                    <tr>
+                      <td className="py-2 font-semibold">Zoom</td>
+                      <td className="py-2 text-gray-600">No portfolio integration</td>
+                      <td className="py-2 text-purple-600 font-semibold">Integrated professional showcase</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </motion.div>
+
+          <motion.div variants={fadeInUp} className="text-center">
+            <div className="bg-white p-8 rounded-2xl shadow-xl max-w-2xl mx-auto">
+              <h3 className="text-3xl font-bold text-gray-900 mb-4">Unique Market Position</h3>
+              <p className="text-lg text-gray-600">
+                Only platform designed specifically for displaced professionals with dignity-first approach
+              </p>
+            </div>
+          </motion.div>
+        </div>
+      </Section>
+
+      {/* Financials Section */}
+      <Section id="financials" className="gradient-bg-dark">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div variants={fadeInUp} className="text-center mb-16">
+            <h2 className="text-5xl font-bold text-white mb-8">
+              Financial Projections
+            </h2>
+            <p className="text-2xl text-white/90 mb-12">Explosive Growth Trajectory</p>
+          </motion.div>
+
+          <motion.div variants={fadeInUp} className="mb-16">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8">
+              <h3 className="text-3xl font-bold text-white mb-8 text-center">Revenue Projections</h3>
+              <div className="overflow-x-auto">
+                <table className="w-full text-white">
+                  <thead>
+                    <tr className="border-b border-white/20">
+                      <th className="text-left py-4 px-6">Year</th>
+                      <th className="text-center py-4 px-6">Vora</th>
+                      <th className="text-center py-4 px-6">Vision</th>
+                      <th className="text-center py-4 px-6">Verse</th>
+                      <th className="text-center py-4 px-6">Total Revenue</th>
+                      <th className="text-center py-4 px-6">Growth Rate</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr className="border-b border-white/10">
+                      <td className="py-4 px-6 font-bold">2025</td>
+                      <td className="py-4 px-6 text-center">$2.1M</td>
+                      <td className="py-4 px-6 text-center">$1.8M</td>
+                      <td className="py-4 px-6 text-center">$2.4M</td>
+                      <td className="py-4 px-6 text-center font-bold text-cyan-400">$6.3M</td>
+                      <td className="py-4 px-6 text-center text-yellow-400">Launch</td>
+                    </tr>
+                    <tr className="border-b border-white/10">
+                      <td className="py-4 px-6 font-bold">2026</td>
+                      <td className="py-4 px-6 text-center">$12.4M</td>
+                      <td className="py-4 px-6 text-center">$18.7M</td>
+                      <td className="py-4 px-6 text-center">$12.8M</td>
+                      <td className="py-4 px-6 text-center font-bold text-cyan-400">$43.9M</td>
+                      <td className="py-4 px-6 text-center text-green-400 font-bold">597%</td>
+                    </tr>
+                    <tr className="border-b border-white/10">
+                      <td className="py-4 px-6 font-bold">2027</td>
+                      <td className="py-4 px-6 text-center">$45.2M</td>
+                      <td className="py-4 px-6 text-center">$67.3M</td>
+                      <td className="py-4 px-6 text-center">$38.5M</td>
+                      <td className="py-4 px-6 text-center font-bold text-cyan-400">$151.0M</td>
+                      <td className="py-4 px-6 text-center text-green-400 font-bold">244%</td>
+                    </tr>
+                    <tr>
+                      <td className="py-4 px-6 font-bold">2028</td>
+                      <td className="py-4 px-6 text-center">$128.6M</td>
+                      <td className="py-4 px-6 text-center">$156.8M</td>
+                      <td className="py-4 px-6 text-center">$89.2M</td>
+                      <td className="py-4 px-6 text-center font-bold text-cyan-400">$374.6M</td>
+                      <td className="py-4 px-6 text-center text-green-400 font-bold">148%</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </motion.div>
+
+          <motion.div variants={staggerContainer} className="grid md:grid-cols-2 gap-12">
+            <motion.div variants={slideInLeft}>
+              <h3 className="text-3xl font-bold text-white mb-8">Bulletproof Unit Economics</h3>
+              <div className="space-y-4">
+                <div className="bg-white/10 backdrop-blur-lg rounded-lg p-6">
+                  <div className="flex justify-between items-center">
+                    <span className="text-white">Customer Acquisition Cost</span>
+                    <span className="text-cyan-400 font-bold">$67 average</span>
+                  </div>
+                </div>
+                <div className="bg-white/10 backdrop-blur-lg rounded-lg p-6">
+                  <div className="flex justify-between items-center">
+                    <span className="text-white">Customer Lifetime Value</span>
+                    <span className="text-cyan-400 font-bold">$1,424 average</span>
+                  </div>
+                  <p className="text-white/70 text-sm mt-2">21x CAC ratio</p>
+                </div>
+                <div className="bg-white/10 backdrop-blur-lg rounded-lg p-6">
+                  <div className="flex justify-between items-center">
+                    <span className="text-white">Payback Period</span>
+                    <span className="text-cyan-400 font-bold">2.9 months</span>
+                  </div>
+                  <p className="text-white/70 text-sm mt-2">Industry-leading</p>
+                </div>
+                <div className="bg-white/10 backdrop-blur-lg rounded-lg p-6">
+                  <div className="flex justify-between items-center">
+                    <span className="text-white">Gross Margin</span>
+                    <span className="text-cyan-400 font-bold">68% blended</span>
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+
+            <motion.div variants={slideInRight}>
+              <h3 className="text-3xl font-bold text-white mb-8">Path to Profitability</h3>
+              <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8">
+                <div className="flex items-center justify-between mb-6">
+                  <span className="text-white text-lg">Break-even timeline</span>
+                  <span className="text-green-400 font-bold text-2xl">Month 18</span>
+                </div>
+                <div className="flex items-center justify-between">
+                  <span className="text-white text-lg">Required active users</span>
+                  <span className="text-cyan-400 font-bold text-2xl">35K</span>
+                </div>
+                <div className="mt-8 p-6 bg-green-900/20 rounded-lg border border-green-500/20">
+                  <h4 className="text-green-400 font-bold text-lg mb-2">Conservative Projections</h4>
+                  <p className="text-white/80">
+                    All revenue projections based on proven beta metrics and conservative growth assumptions
+                  </p>
+                </div>
+              </div>
+            </motion.div>
+          </motion.div>
+        </div>
+      </Section>
+
+      {/* Competitive Advantage Section */}
+      <Section id="advantage" className="bg-gradient-to-br from-orange-50 to-red-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div variants={fadeInUp} className="text-center mb-16">
+            <h2 className="text-5xl font-bold text-gray-900 mb-8">
+              Why VersionTwo Will Dominate
+            </h2>
+            <p className="text-2xl text-gray-600 mb-12">Unbeatable Competitive Moats</p>
+          </motion.div>
+
+          <motion.div variants={staggerContainer} className="grid md:grid-cols-2 gap-12 items-center mb-16">
+            <div>
+              <div className="space-y-8">
+                <motion.div variants={slideInLeft} className="card">
+                  <div className="flex items-start space-x-4">
+                    <div className="flex-shrink-0 w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center">
+                      <Award className="w-6 h-6 text-orange-600" />
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-bold text-gray-900 mb-2">First-Mover Advantage</h3>
+                      <p className="text-gray-600">Only integrated AI + wearable + virtual economy platform</p>
+                    </div>
+                  </div>
+                </motion.div>
+                
+                <motion.div variants={slideInLeft} className="card">
+                  <div className="flex items-start space-x-4">
+                    <div className="flex-shrink-0 w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
+                      <TrendingUp className="w-6 h-6 text-purple-600" />
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-bold text-gray-900 mb-2">Network Effects</h3>
+                      <p className="text-gray-600">Each product makes the others exponentially more valuable</p>
+                    </div>
+                  </div>
+                </motion.div>
+                
+                <motion.div variants={slideInLeft} className="card">
+                  <div className="flex items-start space-x-4">
+                    <div className="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
+                      <Shield className="w-6 h-6 text-blue-600" />
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-bold text-gray-900 mb-2">Data Moat</h3>
+                      <p className="text-gray-600">Personal context and interaction patterns create switching costs</p>
+                    </div>
+                  </div>
+                </motion.div>
+                
+                <motion.div variants={slideInLeft} className="card">
+                  <div className="flex items-start space-x-4">
+                    <div className="flex-shrink-0 w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
+                      <Lightbulb className="w-6 h-6 text-green-600" />
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-bold text-gray-900 mb-2">Patent Portfolio</h3>
+                      <p className="text-gray-600">Proprietary NFC-AI interaction methods</p>
+                    </div>
+                  </div>
+                </motion.div>
+                
+                <motion.div variants={slideInLeft} className="card">
+                  <div className="flex items-start space-x-4">
+                    <div className="flex-shrink-0 w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center">
+                      <Zap className="w-6 h-6 text-yellow-600" />
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-bold text-gray-900 mb-2">Ecosystem Lock-in</h3>
+                      <p className="text-gray-600">Unified experience across all digital interactions</p>
+                    </div>
+                  </div>
+                </motion.div>
+              </div>
+            </div>
+            
+            <div>
+              <h3 className="text-3xl font-bold text-gray-900 mb-8">Market Positioning</h3>
+              <div className="space-y-6">
+                <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-orange-500">
+                  <h4 className="text-xl font-bold text-gray-900 mb-2">vs. Big Tech</h4>
+                  <p className="text-gray-600">Privacy-first, user-controlled data</p>
+                </div>
+                
+                <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-purple-500">
+                  <h4 className="text-xl font-bold text-gray-900 mb-2">vs. Startups</h4>
+                  <p className="text-gray-600">Comprehensive ecosystem, not point solutions</p>
+                </div>
+                
+                <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-blue-500">
+                  <h4 className="text-xl font-bold text-gray-900 mb-2">vs. Hardware Companies</h4>
+                  <p className="text-gray-600">Software-first approach with AI intelligence</p>
+                </div>
+                
+                <div className="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-green-500">
+                  <h4 className="text-xl font-bold text-gray-900 mb-2">vs. AI Companies</h4>
+                  <p className="text-gray-600">Real-world context through hardware integration</p>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+
+          <motion.div variants={fadeInUp} className="text-center">
+            <div className="bg-white p-8 rounded-2xl shadow-xl max-w-4xl mx-auto">
+              <h3 className="text-3xl font-bold text-gray-900 mb-4">The Reality</h3>
+              <p className="text-xl text-gray-600 mb-6">
+                No competitor can replicate our integrated approach without massive investment and years of development
+              </p>
+              <div className="flex justify-center space-x-8">
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-orange-600 mb-2">$10B+</div>
+                  <p className="text-gray-600">Required investment to replicate</p>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-orange-600 mb-2">3-5</div>
+                  <p className="text-gray-600">Years to market</p>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-orange-600 mb-2">0</div>
+                  <p className="text-gray-600">Guarantee of success</p>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </Section>
+
+      {/* Team Section */}
+      <Section id="team" className="gradient-bg-dark" bgImage="https://images.pexels.com/photos/32870067/pexels-photo-32870067.jpeg">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div variants={fadeInUp} className="text-center mb-16">
+            <h2 className="text-5xl font-bold text-white mb-8">
+              Experienced Leadership Team
+            </h2>
+            <p className="text-2xl text-white/90 mb-12">Proven Track Record</p>
+          </motion.div>
+
+          <motion.div variants={staggerContainer} className="grid md:grid-cols-3 gap-8 mb-16">
+            <motion.div variants={slideInLeft} className="bg-white/10 backdrop-blur-lg rounded-2xl p-8">
+              <div className="text-center">
+                <div className="w-24 h-24 bg-cyan-100 rounded-full mx-auto mb-6 flex items-center justify-center">
+                  <User className="w-12 h-12 text-cyan-600" />
+                </div>
+                <h3 className="text-2xl font-bold text-white mb-2">Vedant Agarwal</h3>
+                <p className="text-cyan-400 font-semibold mb-4">CEO</p>
+                <div className="space-y-2 text-left">
+                  <p className="text-white/80"><Mail className="w-4 h-4 inline mr-2" />vedant@versiontwo.world</p>
+                  <p className="text-white/80 mt-4"><strong>Expertise:</strong> AI/ML architecture and product vision</p>
+                  <p className="text-white/80"><strong>Leadership:</strong> Technical strategy and execution excellence</p>
+                </div>
+              </div>
+            </motion.div>
+
+            <motion.div variants={fadeInUp} className="bg-white/10 backdrop-blur-lg rounded-2xl p-8">
+              <div className="text-center">
+                <div className="w-24 h-24 bg-purple-100 rounded-full mx-auto mb-6 flex items-center justify-center">
+                  <User className="w-12 h-12 text-purple-600" />
+                </div>
+                <h3 className="text-2xl font-bold text-white mb-2">Debarun Karmakar</h3>
+                <p className="text-purple-400 font-semibold mb-4">CPO</p>
+                <div className="space-y-2 text-left">
+                  <p className="text-white/80"><Mail className="w-4 h-4 inline mr-2" />debarun@versiontwo.world</p>
+                  <p className="text-white/80 mt-4"><strong>Expertise:</strong> Hardware engineering and user experience design</p>
+                  <p className="text-white/80"><strong>Leadership:</strong> Product development and design innovation</p>
+                </div>
+              </div>
+            </motion.div>
+
+            <motion.div variants={slideInRight} className="bg-white/10 backdrop-blur-lg rounded-2xl p-8">
+              <div className="text-center">
+                <div className="w-24 h-24 bg-green-100 rounded-full mx-auto mb-6 flex items-center justify-center">
+                  <User className="w-12 h-12 text-green-600" />
+                </div>
+                <h3 className="text-2xl font-bold text-white mb-2">Siri Kaparthi</h3>
+                <p className="text-green-400 font-semibold mb-4">CGO</p>
+                <div className="space-y-2 text-left">
+                  <p className="text-white/80"><Mail className="w-4 h-4 inline mr-2" />siri@versiontwo.world</p>
+                  <p className="text-white/80 mt-4"><strong>Expertise:</strong> Go-to-market strategy and business development</p>
+                  <p className="text-white/80"><strong>Leadership:</strong> Growth execution and partnership development</p>
+                </div>
+              </div>
+            </motion.div>
+          </motion.div>
+
+          <motion.div variants={fadeInUp} className="text-center">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 max-w-4xl mx-auto">
+              <h3 className="text-3xl font-bold text-white mb-8">Proven Track Record</h3>
+              <div className="grid md:grid-cols-2 gap-8">
+                <div>
+                  <div className="space-y-4">
+                    <div className="flex items-center space-x-3">
+                      <CheckCircle className="w-6 h-6 text-green-400" />
+                      <span className="text-white">Working prototypes across all three products</span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <CheckCircle className="w-6 h-6 text-green-400" />
+                      <span className="text-white">2,500 beta users with exceptional validation metrics</span>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div className="space-y-4">
+                    <div className="flex items-center space-x-3">
+                      <CheckCircle className="w-6 h-6 text-green-400" />
+                      <span className="text-white">45 enterprise partnerships already secured</span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <CheckCircle className="w-6 h-6 text-green-400" />
+                      <span className="text-white">$127K pre-orders for Vision hardware</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </Section>
+
       {/* Contact Section */}
       <Section id="investment" className="gradient-bg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
